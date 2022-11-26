@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("./assets/backgroundblanco.png");
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+  background-attachment: scroll;
+  padding: 0px;
+  margin: 0px;
+}
+
+.imagendefondo1{
+  background-image: url("./assets/backgroundblanco.png");
+}
+.fondoNegro{
+  background-color: black;
+}
+
+.display-block{
+  display: block;
+}
+
+.w-full{
+  width: 100%!important;
+}
+
+.p-x-0 {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.p-t-md{
+  padding-top: 10px!important;
+}
+
+.botones:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.bases{
+  margin-right: 0px;   
+}
+@media only screen and (max-width: 767px){
+  .blue-bg{
+      background-color: #2869b1;
+  }
+  .legal{
+      width: 100%!important;
+  }
+
+}
+.pop:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+
+  }
+
+  
